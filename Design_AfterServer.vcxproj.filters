@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="data">
+      <UniqueIdentifier>{0357110f-95c8-467b-95f1-4280b5f76baf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entry">
+      <UniqueIdentifier>{5885778c-9565-4b00-9170-5277dc815950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{4d16d78d-77cf-4643-8946-ce6a94e9fab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{bec9f245-cce6-402a-a1a3-3807e880f1b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="service">
+      <UniqueIdentifier>{45890f5a-7bb5-4f8b-9cc1-3fa7bac723c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{b4240922-5d5e-48a7-b03a-f43a6e822e29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MD5.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="MysqlUtil.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="CRCUtil.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="getCodeUtil.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="protecol.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="shmRead.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="shmWrite.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="CThreadPool.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseTask.h">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="CUser.h">
+      <Filter>entry</Filter>
+    </ClInclude>
+    <ClInclude Include="CLoginTask.h">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelFactory.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CUserModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CLogModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CLog.h">
+      <Filter>entry</Filter>
+    </ClInclude>
+    <ClInclude Include="CGetodeTask.h">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="CRegisterTask.h">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="CSendVideoTask.h">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="CVideo.h">
+      <Filter>entry</Filter>
+    </ClInclude>
+    <ClInclude Include="CVideoModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CPictrue.h">
+      <Filter>entry</Filter>
+    </ClInclude>
+    <ClInclude Include="CPictureModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CCaptureTask.h">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="CGetVideoListTask.h">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="CDocumentTask.h">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="CGetPictureListTask.h">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="Cold.h">
+      <Filter>entry</Filter>
+    </ClInclude>
+    <ClInclude Include="COldModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CGetOldListTask.h">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="CCallRecordModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CCallRecordReportTask.h">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="CCallRecordQueryTask.h">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="MedicineRecord.h">
+      <Filter>entry</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivityRecord.h">
+      <Filter>entry</Filter>
+    </ClInclude>
+    <ClInclude Include="BloodPressureRecord.h">
+      <Filter>entry</Filter>
+    </ClInclude>
+    <ClInclude Include="ElderInfo.h">
+      <Filter>entry</Filter>
+    </ClInclude>
+    <ClInclude Include="CActivityRecordModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CBloodPressureRecordModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CElderInfoModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CMedicineRecordModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CinsertTask.h">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="CinsertTask2.h">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="CinsertTask3.h">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="CinsertTask4.h">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="CQueryElderInfoTask.h">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="CQueryBloodPressureTask.h">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="CQueryMedicineTask.h">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="CQueryActivityTask.h">
+      <Filter>service</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MD5.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="MysqlUtil.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="CRCUtil.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="getCodeUtil.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="shmRead.cpp">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="shmWrite.cpp">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="CThreadPool.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseTask.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="CUser.cpp">
+      <Filter>entry</Filter>
+    </ClCompile>
+    <ClCompile Include="CLoginTask.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelFactory.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CUserModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CLogModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CLog.cpp">
+      <Filter>entry</Filter>
+    </ClCompile>
+    <ClCompile Include="CGetodeTask.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="CRegisterTask.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="CSendVideoTask.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="CVideo.cpp">
+      <Filter>entry</Filter>
+    </ClCompile>
+    <ClCompile Include="CVideoModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CPictrue.cpp">
+      <Filter>entry</Filter>
+    </ClCompile>
+    <ClCompile Include="CPictureModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CCaptureTask.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="CGetVideoListTask.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="CDocumentTask.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="CGetPictureListTask.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="Cold.cpp">
+      <Filter>entry</Filter>
+    </ClCompile>
+    <ClCompile Include="COldModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CGetOldListTask.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="CCallRecordModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CCallRecordReportTask.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="CCallRecordQueryTask.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="ActivityRecord.cpp">
+      <Filter>entry</Filter>
+    </ClCompile>
+    <ClCompile Include="BloodPressureRecord.cpp">
+      <Filter>entry</Filter>
+    </ClCompile>
+    <ClCompile Include="ElderInfo.cpp">
+      <Filter>entry</Filter>
+    </ClCompile>
+    <ClCompile Include="MedicineRecord.cpp">
+      <Filter>entry</Filter>
+    </ClCompile>
+    <ClCompile Include="CActivityRecordModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CBloodPressureRecordModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CElderInfoModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CMedicineRecordModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CinsertTask.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="CinsertTask2.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="CinsertTask3.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="CinsertTask4.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="CQueryElderInfoTask.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="CQueryBloodPressureTask.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="CQueryMedicineTask.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="CQueryActivityTask.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
