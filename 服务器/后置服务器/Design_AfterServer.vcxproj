@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9a13ef11-ce76-45e2-8115-096afa112e71}</ProjectGuid>
+    <Keyword>Linux</Keyword>
+    <RootNamespace>Design_AfterServer</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Linux</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
+    <LinuxProjectType>{2238F9CD-F817-4ECC-BD14-2524D2669B35}</LinuxProjectType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <ItemGroup>
+    <ClCompile Include="ActivityRecord.cpp" />
+    <ClCompile Include="BloodPressureRecord.cpp" />
+    <ClCompile Include="CActivityRecordModel.cpp" />
+    <ClCompile Include="CCallRecordModel.cpp" />
+    <ClCompile Include="CCallRecordQueryTask.cpp" />
+    <ClCompile Include="CCallRecordReportTask.cpp" />
+    <ClCompile Include="CBaseTask.cpp" />
+    <ClCompile Include="CBloodPressureRecordModel.cpp" />
+    <ClCompile Include="CCaptureTask.cpp" />
+    <ClCompile Include="CDocumentTask.cpp" />
+    <ClCompile Include="CElderInfoModel.cpp" />
+    <ClCompile Include="CGetodeTask.cpp" />
+    <ClCompile Include="CGetOldListTask.cpp" />
+    <ClCompile Include="CGetPictureListTask.cpp" />
+    <ClCompile Include="CGetVideoListTask.cpp" />
+    <ClCompile Include="CinsertTask.cpp" />
+    <ClCompile Include="CinsertTask2.cpp" />
+    <ClCompile Include="CinsertTask3.cpp" />
+    <ClCompile Include="CinsertTask4.cpp" />
+    <ClCompile Include="CLog.cpp" />
+    <ClCompile Include="CLoginTask.cpp" />
+    <ClCompile Include="CLogModel.cpp" />
+    <ClCompile Include="CMedicineRecordModel.cpp" />
+    <ClCompile Include="Cold.cpp" />
+    <ClCompile Include="COldModel.cpp" />
+    <ClCompile Include="CPictrue.cpp" />
+    <ClCompile Include="CPictureModel.cpp" />
+    <ClCompile Include="CQueryElderInfoTask.cpp" />
+    <ClCompile Include="CQueryBloodPressureTask.cpp" />
+    <ClCompile Include="CQueryMedicineTask.cpp" />
+    <ClCompile Include="CQueryActivityTask.cpp" />
+    <ClCompile Include="CRCUtil.cpp" />
+    <ClCompile Include="CRegisterTask.cpp" />
+    <ClCompile Include="CSendVideoTask.cpp" />
+    <ClCompile Include="CThreadPool.cpp" />
+    <ClCompile Include="CUser.cpp" />
+    <ClCompile Include="CUserModel.cpp" />
+    <ClCompile Include="CVideo.cpp" />
+    <ClCompile Include="CVideoModel.cpp" />
+    <ClCompile Include="ElderInfo.cpp" />
+    <ClCompile Include="getCodeUtil.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MD5.cpp" />
+    <ClCompile Include="MedicineRecord.cpp" />
+    <ClCompile Include="ModelFactory.cpp" />
+    <ClCompile Include="MysqlUtil.cpp" />
+    <ClCompile Include="shmRead.cpp" />
+    <ClCompile Include="shmWrite.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActivityRecord.h" />
+    <ClInclude Include="BloodPressureRecord.h" />
+    <ClInclude Include="CActivityRecordModel.h" />
+    <ClInclude Include="CCallRecordModel.h" />
+    <ClInclude Include="CCallRecordQueryTask.h" />
+    <ClInclude Include="CCallRecordReportTask.h" />
+    <ClInclude Include="CBaseTask.h" />
+    <ClInclude Include="CBloodPressureRecordModel.h" />
+    <ClInclude Include="CCaptureTask.h" />
+    <ClInclude Include="CDocumentTask.h" />
+    <ClInclude Include="CElderInfoModel.h" />
+    <ClInclude Include="CGetodeTask.h" />
+    <ClInclude Include="CGetOldListTask.h" />
+    <ClInclude Include="CGetPictureListTask.h" />
+    <ClInclude Include="CGetVideoListTask.h" />
+    <ClInclude Include="CinsertTask.h" />
+    <ClInclude Include="CinsertTask2.h" />
+    <ClInclude Include="CinsertTask3.h" />
+    <ClInclude Include="CinsertTask4.h" />
+    <ClInclude Include="CLog.h" />
+    <ClInclude Include="CLoginTask.h" />
+    <ClInclude Include="CLogModel.h" />
+    <ClInclude Include="CMedicineRecordModel.h" />
+    <ClInclude Include="Cold.h" />
+    <ClInclude Include="COldModel.h" />
+    <ClInclude Include="CPictrue.h" />
+    <ClInclude Include="CPictureModel.h" />
+    <ClInclude Include="CQueryElderInfoTask.h" />
+    <ClInclude Include="CQueryBloodPressureTask.h" />
+    <ClInclude Include="CQueryMedicineTask.h" />
+    <ClInclude Include="CQueryActivityTask.h" />
+    <ClInclude Include="CRCUtil.h" />
+    <ClInclude Include="CRegisterTask.h" />
+    <ClInclude Include="CSendVideoTask.h" />
+    <ClInclude Include="CThreadPool.h" />
+    <ClInclude Include="CUser.h" />
+    <ClInclude Include="CUserModel.h" />
+    <ClInclude Include="CVideo.h" />
+    <ClInclude Include="CVideoModel.h" />
+    <ClInclude Include="ElderInfo.h" />
+    <ClInclude Include="getCodeUtil.h" />
+    <ClInclude Include="IdentityMap.h" />
+    <ClInclude Include="MD5.h" />
+    <ClInclude Include="MedicineRecord.h" />
+    <ClInclude Include="ModelFactory.h" />
+    <ClInclude Include="MysqlUtil.h" />
+    <ClInclude Include="protecol.h" />
+    <ClInclude Include="shmRead.h" />
+    <ClInclude Include="shmWrite.h" />
+  </ItemGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <CppLanguageStandard>c++17</CppLanguageStandard>
+      <AdditionalIncludeDirectories>/usr/include/;/usr/include/mysql/;/usr/include/cppconn/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <IgnoreSpecificDefaultLibraries>/usr/lib/libmysqlcppconn.so;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <AdditionalDependencies>/usr/lib/libmysqlcppconn.so;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>-pthread   -lmysqlcppconn %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>
