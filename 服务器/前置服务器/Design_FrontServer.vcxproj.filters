@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="net">
+      <UniqueIdentifier>{b5c7c81f-d948-4384-85ef-9ed18c5cc090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{4488e0ea-e725-4918-8f18-57acb2519a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{3665b182-aa13-4091-8927-0aedf4899a5e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CEpollServer.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="CHostAddress.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="CTcpServer.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="protecol.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="shmRead.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="shmWrite.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="CRCUtil.h">
+      <Filter>util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CEpollServer.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="CHostAddress.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="CTcpServer.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="shmRead.cpp">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="shmWrite.cpp">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="CRCUtil.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>
